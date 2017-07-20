@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6D40274-2BDE-4281-BEF9-1E8D2F2FD286}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IP_FinalProject</RootNamespace>
+    <AssemblyName>IP_FinalProject</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Attractions.aspx" />
+    <Content Include="Images\Attractions\aquarium.jpg" />
+    <Content Include="Images\Attractions\cchooks.jpg" />
+    <Content Include="Images\Attractions\icerays.jpg" />
+    <Content Include="Images\Attractions\misp.jpg" />
+    <Content Include="Images\Attractions\pins.jpg" />
+    <Content Include="Images\Attractions\ussLexington.jpg" />
+    <Content Include="BookIt.aspx" />
+    <Content Include="Confirmation.aspx" />
+    <Content Include="ConfirmRentals.aspx" />
+    <Content Include="ContactUs.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Error\403.aspx" />
+    <Content Include="Error\404.aspx" />
+    <Content Include="Error\Error.aspx" />
+    <Content Include="Images\1217\1.jpg" />
+    <Content Include="Images\1217\2.jpg" />
+    <Content Include="Images\1217\3.jpg" />
+    <Content Include="Images\1217\4.jpg" />
+    <Content Include="Images\1217\5.jpg" />
+    <Content Include="Images\1217\6.jpg" />
+    <Content Include="Images\1217\7.jpg" />
+    <Content Include="Images\1217\8.jpg" />
+    <Content Include="Images\1217\9.jpg" />
+    <Content Include="Images\1240\1.jpg" />
+    <Content Include="Images\1240\10.jpg" />
+    <Content Include="Images\1240\2.jpg" />
+    <Content Include="Images\1240\3.jpg" />
+    <Content Include="Images\1240\4.jpg" />
+    <Content Include="Images\1240\5.jpg" />
+    <Content Include="Images\1240\6.jpg" />
+    <Content Include="Images\1240\7.jpg" />
+    <Content Include="Images\1240\8.jpg" />
+    <Content Include="Images\1240\9.jpg" />
+    <Content Include="Images\2134\1.jpg" />
+    <Content Include="Images\2134\10.jpg" />
+    <Content Include="Images\2134\11.jpg" />
+    <Content Include="Images\2134\12.jpg" />
+    <Content Include="Images\2134\13.jpg" />
+    <Content Include="Images\2134\14.jpg" />
+    <Content Include="Images\2134\15.jpg" />
+    <Content Include="Images\2134\16.jpg" />
+    <Content Include="Images\2134\17.jpg" />
+    <Content Include="Images\2134\18.jpg" />
+    <Content Include="Images\2134\19.jpg" />
+    <Content Include="Images\2134\2.jpg" />
+    <Content Include="Images\2134\20.jpg" />
+    <Content Include="Images\2134\21.jpg" />
+    <Content Include="Images\2134\22.jpg" />
+    <Content Include="Images\2134\23.jpg" />
+    <Content Include="Images\2134\24.jpg" />
+    <Content Include="Images\2134\3.jpg" />
+    <Content Include="Images\2134\4.jpg" />
+    <Content Include="Images\2134\5.jpg" />
+    <Content Include="Images\2134\6.jpg" />
+    <Content Include="Images\2134\7.jpg" />
+    <Content Include="Images\2134\8.jpg" />
+    <Content Include="Images\2134\9.jpg" />
+    <Content Include="Images\Banner\cc1.jpg" />
+    <Content Include="Images\Banner\cc2.jpg" />
+    <Content Include="Images\Banner\cc3.jpg" />
+    <Content Include="Images\Banner\cc4.jpg" />
+    <Content Include="Images\Banner\cc5.jpg" />
+    <Content Include="Images\Banner\cc6.jpg" />
+    <Content Include="Images\Banner\cc7.jpg" />
+    <Content Include="Images\Banner\cc8.jpg" />
+    <Content Include="Images\Banner\cc9.jpg" />
+    <Content Include="Images\errors\403.jpg" />
+    <Content Include="Images\errors\404.jpg" />
+    <Content Include="Images\errors\error.jpg" />
+    <Content Include="Images\errors\sqlerror.jpg" />
+    <Content Include="img\arrow_down.jpg" />
+    <Content Include="img\arrow_up.jpg" />
+    <Content Include="img\Calendar.bmp" />
+    <Content Include="img\loadingRoomImg.gif" />
+    <Content Include="Rental.aspx" />
+    <Content Include="Reports.aspx" />
+    <Content Include="Error\SqlError.aspx" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\slideShow.js" />
+    <Content Include="Styles\Final.css" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\left.gif" />
+    <Content Include="img\loading.gif" />
+    <Content Include="img\nav.gif" />
+    <Content Include="img\nav_active.gif" />
+    <Content Include="img\right.gif" />
+    <Content Include="LogIn.aspx" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\sliderman.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MasterPages\AdminDefault.Master.cs">
+      <DependentUpon>AdminDefault.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\AdminDefault.Master.designer.cs">
+      <DependentUpon>AdminDefault.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Attractions.aspx.cs">
+      <DependentUpon>Attractions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attractions.aspx.designer.cs">
+      <DependentUpon>Attractions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Booking.Master.cs">
+      <DependentUpon>Booking.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Booking.Master.designer.cs">
+      <DependentUpon>Booking.Master</DependentUpon>
+    </Compile>
+    <Compile Include="BookIt.aspx.cs">
+      <DependentUpon>BookIt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BookIt.aspx.designer.cs">
+      <DependentUpon>BookIt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmation.aspx.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirmation.aspx.designer.cs">
+      <DependentUpon>Confirmation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmRentals.aspx.cs">
+      <DependentUpon>ConfirmRentals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmRentals.aspx.designer.cs">
+      <DependentUpon>ConfirmRentals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error\403.aspx.cs">
+      <DependentUpon>403.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error\403.aspx.designer.cs">
+      <DependentUpon>403.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error\404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error\404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.aspx.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogIn.aspx.designer.cs">
+      <DependentUpon>LogIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Error.Master.cs">
+      <DependentUpon>Error.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Error.Master.designer.cs">
+      <DependentUpon>Error.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="MasterPages\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Rental.aspx.cs">
+      <DependentUpon>Rental.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Rental.aspx.designer.cs">
+      <DependentUpon>Rental.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports.aspx.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports.aspx.designer.cs">
+      <DependentUpon>Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error\SqlError.aspx.cs">
+      <DependentUpon>SqlError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error\SqlError.aspx.designer.cs">
+      <DependentUpon>SqlError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.cs" />
+    <Compile Include="MasterPages\Template.Master.cs">
+      <DependentUpon>Template.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Template.Master.designer.cs">
+      <DependentUpon>Template.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="delete\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Template.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Admin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Booking.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\AdminDefault.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPages\Error.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>64913</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

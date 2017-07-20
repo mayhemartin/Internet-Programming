@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.Master.cs" Inherits="IP_FinalProject.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link rel="Stylesheet" type="text/css" href="~/Styles/Final.css" />
+    <title>CC Condos - Admin</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="loginDisplay">
+            <table style="width:100%; border-collapse:collapse;">
+                <tr id="header" style="background-color:#6EADF0;" cellspacing=0 cellpadding=0;>
+                    <td class="colLeft">                        
+                    </td>            
+                    <td class="headerPic">
+                    </td>
+                    <td class="loginview">
+                        
+                        <!--<asp:LoginView ID="HeadLoginView" runat="server">
+                            <AnonymousTemplate>
+                                [<a href="~/LogIn.aspx" id="HeadLoginStatus" runat="server">Admin Login</a>]
+                            </AnonymousTemplate>
+                            <LoggedInTemplate>
+                                Welcome, 
+                                <asp:LoginName ID="LoginName1" runat="server" />
+                                <asp:LoginStatus ID="LoginStatus1" runat="server" />
+                            </LoggedInTemplate>
+                        </asp:LoginView>-->
+                        <asp:LinkButton ID="logOut" runat="server" onclick="logOut_Click">Log Out</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr style="background-color:#6EADF0;">
+                    <td class="colLeft"></td>
+                    <td class="menu">
+                        <ul>
+                            <li class="menu"><a href="Default.aspx">Home</a></li>
+                            <li class="menu"><a href="Rental.aspx">Rental</a></li>
+                            <li class="menu"><a href="Attractions.aspx">Attractions</a></li>
+                            <li class="menu"><a href="ContactUs.aspx">Contact Us</a></li>
+                        </ul>
+                        <ul>
+                            <li class="menu"><a href="ConfirmRentals.aspx">Confirmations</a></li>
+                            <li class="menu"><a href="Reports.aspx">Reports</a></li>
+                        </ul>
+                    </td>
+                    <td class="colRight"></td>
+                </tr>
+                <tr id="content">
+                    <td>
+                        
+                    </td>
+                    <td id="Content" class="content">
+                        <asp:ContentPlaceHolder ID="Body" runat="server">
+        
+                        </asp:ContentPlaceHolder>                    
+                    </td>
+                    <td></td>
+                </tr>
+            </table>        
+    </div>
+    </form>
+</body>
+</html>
+
